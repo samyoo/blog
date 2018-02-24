@@ -1,7 +1,8 @@
 ---
 title: mysql递归查询
 date: 2018-02-23 14:29:44
-tags:
+tags: mysql
+categories: mysql
 ---
 
 ### 样例数据：
