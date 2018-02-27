@@ -2,7 +2,7 @@
 title: mysql递归查询
 date: 2018-02-23 14:29:44
 tags: mysql
-categories: mysql
+categories: 数据库
 ---
 
 ### 样例数据：
