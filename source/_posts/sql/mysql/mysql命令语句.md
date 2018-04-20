@@ -58,4 +58,16 @@ END;
 
 delimiter ;
 
+
+
+--  mysql 生成一段连续的日期
+CREATE TABLE num (i int);  
+INSERT INTO num (i) VALUES (0), (1), (2), (3), (4), (5), (6), (7), (8), (9);  
+
+select adddate('2012-09-01', numlist.id) as `date` from 
+(SELECT n1.i + n10.i*10 + n100.i*100 AS id FROM a_num n1 cross join a_num as n10 cross join num as n100) as numlist 
+where adddate('2012-09-01', numlist.id) <= '2012-09-10';  
+
+
+
 ```
