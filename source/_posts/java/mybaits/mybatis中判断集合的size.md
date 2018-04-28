@@ -1,12 +1,10 @@
 
-
 ---
 title: mybatis中判断集合的size
 date: 2018-04-02 11:29:44
 tags: [java,maven,mybatis]
 categories: java
 ---
-
 
 
 ```xml
